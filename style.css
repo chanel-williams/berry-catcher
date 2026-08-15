@@ -94,3 +94,21 @@ body {
 .game {
     font-family: "Press Start 2P", cursive;
 }
+
+
+@media (max-width: 500px) {
+
+    .game {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .game-area {
+        width: 100%;
+    }
+
+    .game-header {
+        width: 100%;
+    }
+
+}
