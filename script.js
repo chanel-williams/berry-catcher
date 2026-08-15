@@ -118,8 +118,11 @@ gameArea.addEventListener("pointermove", function(event) {
 
     const rect = gameArea.getBoundingClientRect();
 
-    targetPosition =
-        event.clientX - rect.left - (basket.offsetWidth / 2);
+    const scale = 0.85;
+
+targetPosition =
+    (event.clientX - rect.left) / scale -
+    (basket.offsetWidth / 2);
 
     if (targetPosition < 0) {
         targetPosition = 0;
