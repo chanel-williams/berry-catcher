@@ -113,9 +113,3 @@ body {
   
 }
 
-@media (max-width: 500px) {
-    .game {
-        transform: scale(0.85);
-        transform-origin: top center;
-    }
-}
