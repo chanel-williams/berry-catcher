@@ -1,7 +1,3 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
     background-color: #BEE3BA;
     min-height: 100vh;
@@ -114,5 +110,11 @@ body {
     .game-header {
         width: 100%;
     }
+  
+}
 
+@media (max-width: 500px) {
+    body {
+        transform: scale(0.85);
+    }
 }
