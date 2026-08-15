@@ -135,7 +135,7 @@ gameArea.addEventListener("pointermove", function(event) {
 function moveBasket() {
 
     basketPosition +=
-        (targetPosition - basketPosition) * 0.05;
+        (targetPosition - basketPosition) * 0.08;
 
     basket.style.left = basketPosition + "px";
 
