@@ -17,7 +17,7 @@ function createStrawberry() {
     document.querySelector(".game-area").appendChild(strawberry);
 
     let position = 0;
-    let speed = 2 + Math.random() * 2;
+    let speed = 4 + Math.random() * 2;
 
     function fall() {
 
