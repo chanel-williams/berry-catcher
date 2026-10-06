@@ -17,7 +17,7 @@ function createStrawberry() {
     document.querySelector(".game-area").appendChild(strawberry);
 
     let position = 0;
-    let speed = 4 + Math.random() * 2;
+    let speed = 2 + Math.random() * 2;
 
     function fall() {
 
@@ -78,7 +78,7 @@ bestScoreDisplay.textContent = bestScore;
 
 let gameOver = false;
 
-let timeLeft = 15;
+let timeLeft = 10;
 const timerDisplay = document.querySelector(".timer");
 const gameOverDisplay = document.querySelector(".game-over");
 const playAgain = document.querySelector(".play-again");
