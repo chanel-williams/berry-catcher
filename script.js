@@ -78,7 +78,7 @@ bestScoreDisplay.textContent = bestScore;
 
 let gameOver = false;
 
-let timeLeft = 20;
+let timeLeft = 10;
 const timerDisplay = document.querySelector(".timer");
 const gameOverDisplay = document.querySelector(".game-over");
 const playAgain = document.querySelector(".play-again");
